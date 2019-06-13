@@ -9,11 +9,13 @@ This script collects the following FreeSWITCH metrics:
     - Current CPS
 ```
 
+
+
 # Usage
 
 ```
-	./telegraf-freeswitch.sh
-	{"active_channels": 4, "active_calls": 12, "cps": 1}   
+./telegraf-freeswitch.sh
+{"active_channels": 4, "active_calls": 12, "cps": 1}   
 ```
 
 # Configuration
