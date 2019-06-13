@@ -49,3 +49,7 @@ chmod +x telegraf-freeswitch.sh
 ```
 telegraf -config /etc/telegraf/telegraf.conf -test && systemctl restart telegraf
 ```
+# Permission Fix (https://github.com/influxdata/telegraf/issues/3671)
+```
+allow telegraf in visudo
+```
