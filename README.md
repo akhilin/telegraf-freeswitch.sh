@@ -45,7 +45,7 @@ chmod +x telegraf-freeswitch.sh
   name_suffix = "_freeswitch"
 ```
 
-# Test Config
+# Test Config and reload
 ```
-telegraf -config telegraf.conf -test
+telegraf -config telegraf.conf -test && systemctl restart telegraf
 ```
