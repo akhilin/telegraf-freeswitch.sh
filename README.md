@@ -18,6 +18,14 @@ This script collects the following FreeSWITCH metrics:
 {"active_channels": 4, "active_calls": 12, "cps": 1}   
 ```
 
+# INSTALL
+
+```
+cd /opt
+wget 'https://github.com/akhilin/telegraf-freeswitch.sh/blob/master/telegraf-freeswitch.sh'
+chmod +x telegraf-freeswitch.sh
+```
+
 # Configuration
 
 ```
