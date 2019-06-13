@@ -35,7 +35,7 @@ chmod +x telegraf-freeswitch.sh
   interval = "5s"
 
   # the command to run
-  command = "/opt/telegraf-freeswitch.sh'
+  command = "/opt/telegraf-freeswitch.sh"
 
   # Data format to consume. This can be "json" or "influx" (line-protocol)
   # NOTE json only reads numerical measurements, strings and booleans are ignored.
