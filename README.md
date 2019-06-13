@@ -9,23 +9,23 @@ This script collects the following FreeSWITCH metrics:
     - Current CPS
 ```
 
-#Usage
+# Usage
 
 ```
 	./telegraf-freeswitch.sh
 	{"active_channels": 4, "active_calls": 12, "cps": 1}   
 ```
 
-#Configuration
+# Configuration
 
 ```
 # Read flattened metrics from one or more commands that output JSON to stdout
 [[inputs.exec]]
-  # Set interval to 1s
-  interval = "1s"
+  # Set interval to 5s
+  interval = "5s"
 
   # the command to run
-  command = "/opt/freeswitch-telegraf-plugin/freeswitch_metrics.py"
+  command = "/opt/telegraf-freeswitch.sh'
 
   # Data format to consume. This can be "json" or "influx" (line-protocol)
   # NOTE json only reads numerical measurements, strings and booleans are ignored.
