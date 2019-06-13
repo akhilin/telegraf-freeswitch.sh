@@ -47,5 +47,5 @@ chmod +x telegraf-freeswitch.sh
 
 # Test Config and reload
 ```
-telegraf -config telegraf.conf -test && systemctl restart telegraf
+telegraf -config /etc/telegraf/telegraf.conf -test && systemctl restart telegraf
 ```
