@@ -44,3 +44,8 @@ chmod +x telegraf-freeswitch.sh
   # measurement name suffix (for separating different commands)
   name_suffix = "_freeswitch"
 ```
+
+# Test Config
+```
+telegraf -config telegraf.conf -test
+```
