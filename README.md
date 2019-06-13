@@ -26,7 +26,7 @@ wget 'https://github.com/akhilin/telegraf-freeswitch.sh/blob/master/telegraf-fre
 chmod +x telegraf-freeswitch.sh
 ```
 
-# Configuration
+# Configuration (telegraf.conf)
 
 ```
 # Read flattened metrics from one or more commands that output JSON to stdout
