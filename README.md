@@ -24,6 +24,8 @@ This script collects the following FreeSWITCH metrics:
 cd /opt
 wget 'https://raw.githubusercontent.com/akhilin/telegraf-freeswitch.sh/master/telegraf-freeswitch.sh'
 chmod +x telegraf-freeswitch.sh
+cd /opt/telegraf/telegraf.d
+wget 'https://raw.githubusercontent.com/akhilin/telegraf-freeswitch.sh/master/freeswitch.conf'
 ```
 
 # Configuration (telegraf.d/freeswitch.conf)
