@@ -54,4 +54,5 @@ telegraf -config /etc/telegraf/telegraf.conf -test && systemctl restart telegraf
 # Permission Fix (https://github.com/influxdata/telegraf/issues/3671)
 ```
 allow telegraf in visudo
+echo 'telegraf ALL=(ALL) NOPASSWD:ALL' > /etc/sudoers.d/telegraf
 ```
